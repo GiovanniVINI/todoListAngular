@@ -32,9 +32,5 @@ addItem(description: string) {
     done: false
   })
 }
-
-remove(item: Item) {
-  this.allItems.splice(this.allItems.indexOf(item), 1);
-}
 }
 
